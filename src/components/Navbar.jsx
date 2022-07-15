@@ -5,8 +5,8 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
 } from "react-icons/ai";
-import PortfolioLogo from "../assets/PortfolioLogo.png";
-import PortfolioLogoLight from "../assets/PortfolioLogoLight.png";
+import PortfolioLogo from "../assets/sol-white-logo.png";
+import PortfolioLogoLight from "../assets/sol-black-logo.png";
 import { ThemeContext } from "./themeContext";
 import Toggle from "./Toggle";
 
@@ -16,11 +16,10 @@ const Navbar = () => {
     setMenu(!menu);
   };
 
-  // eslint-disable-next-line no-unused-vars
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <div className="fixed w-full h-[105px] flex justify-between items-center px-4 bg-light_background dark:bg-background text-light_text dark:text-text text-xl z-50 transition-all duration-700">
+    <div className="fixed w-full h-[125px] flex justify-between items-center px-4 bg-light_background dark:bg-background text-light_text dark:text-text text-xl z-50 transition-all duration-700">
       <div>
         <Link
           activeClass="active"
@@ -32,7 +31,7 @@ const Navbar = () => {
           <img
             src={theme === "dark" ? PortfolioLogo : PortfolioLogoLight}
             alt="Logo"
-            className="h-[110px] m-2 cursor-pointer transition-all duration-700"
+            className="h-[180px] mt-3 cursor-pointer transition-all duration-700"
           />
         </Link>
       </div>

@@ -13,3 +13,7 @@
         @apply cursor-pointer;
     }
 }
+
+.a{
+    background-color: #c40000;
+}

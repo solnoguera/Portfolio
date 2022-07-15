@@ -1,27 +1,29 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-scroll";
 import { RiCodeSLine, RiCodeSSlashLine } from "react-icons/ri";
+import { ThemeContext } from "./themeContext";
 
 const Hero = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <div
       name="home"
       className="w-full h-full py-36 bg-light_background dark:bg-background text-light_text dark:text-text lg:h-screen transition-all duration-700"
     >
-      <div className="max-w-6xl mx-auto px-6 flex flex-col justify-center h-full">
+      <div className="max-w-6xl mx-auto my-6 px-6 flex flex-col justify-center h-full">
         <span className="lg:relative max-w-[36px] text-4xl text-light_subtitle dark:text-subtitle my-4 transition-all duration-700">
-          <RiCodeSLine />
+          <RiCodeSLine color={theme === "dark" ? "white" : "black"}/>
         </span>
         <div className="lg:flex flex-row">
           <div>
-            <p className="text-light_hover dark:text-hover text-xl lg:text-right transition-all duration-700">
+            <p className="text-light_title dark:text-title text-xl lg:text-right transition-all duration-700">
               Hi, I'm
             </p>
             <h1 className="text-4xl sm:text-7xl font-bold lg:text-right">
               Sol Noguera
             </h1>
-            <h2 className="text-light_title dark:text-title text-2xl font-bold sm:text-5xl lg:text-right transition-all duration-700">
-              Full-Stack Web Developer
+            <h2 className="text-light_title dark:text-title my-2 text-2xl font-bold sm:text-5xl lg:text-right transition-all duration-700">
+              FullStack Web Developer
             </h2>
           </div>
           <span className="h-full w-2 mx-4 bg-light_structure dark:bg-structure transition-all duration-700"></span>
@@ -49,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
         <span className="lg:relative max-w-[36px] text-4xl my-4 text-light_subtitle dark:text-subtitle left-[96.5%] transition-all duration-700">
-          <RiCodeSSlashLine />
+          <RiCodeSSlashLine color={theme === "dark" ? "white" : "black"}/>
         </span>
       </div>
     </div>
