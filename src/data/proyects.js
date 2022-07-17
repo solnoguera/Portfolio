@@ -30,7 +30,7 @@ const proyects = [
     description:
       "Development of a SPA alike Google Translator using React for the Front-end,   where the user can enter any phrase in any language and it will be translated to any other language that is selected.  It consumes data and functionality from an API",
     tecnologies: ["Javascript", "React JS", "Bootstrap", "Axios"],
-    deploy: "https://mis-series-soln.netlify.app/",
+    deploy: "https://traductor.netlify.app/",
     repo: "https://github.com/solnoguera/CIU-Primer-Parcial",
     img: translator,
   },
