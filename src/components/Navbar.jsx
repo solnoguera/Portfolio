@@ -116,7 +116,7 @@ const Navbar = () => {
         <li className="mx-4 px-4 items-center">
           <p className="relative group">
             <a
-              href="https://drive.google.com/uc?export=download&id=1wEBQqOICQVmUuq3xnL3OUXI7ikmtP23u"
+              href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
               download
             >
               Resume ↓
@@ -221,7 +221,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <a
-            href="https://drive.google.com/uc?export=download&id=1wEBQqOICQVmUuq3xnL3OUXI7ikmtP23u"
+            href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
             download
           >
             Resume ↓

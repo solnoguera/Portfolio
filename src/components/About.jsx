@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div className="my-8">
               <a
-                href="https://drive.google.com/uc?export=download&id=1wEBQqOICQVmUuq3xnL3OUXI7ikmtP23u"
+                href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
                 download
                 className="mx-2 py-3 font-bold text-black group relative px-8 transition-all duration-700 lg:px-10"
               >
