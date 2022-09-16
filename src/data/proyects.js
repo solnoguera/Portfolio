@@ -10,7 +10,7 @@ const proyects = [
     description:
       "Responsible for the development of the user interface. This web app is an interactive 2D simulator of environments. Its main functionality is to choose or upload your own environment and select those items for sale (armchairs, lamps, etc.) that the client uploads on the admin page so that the user can see how they would look in their room. It consumes data from the Back-end developed in NodeJS using Express.",
     tecnologies: ["Javascript", "React JS", "Tailwind", "Axios"],
-    deploy: "https://online-catalogue-frontend.vercel.app/",
+    deploy: "https://demo.perspectiva.ar/",
     repo: "https://github.com/Aguilera-Agustin/Online-Catalogue-Frontend",
     img: catalogue,
   },
