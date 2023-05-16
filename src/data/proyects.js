@@ -25,7 +25,7 @@ const proyects = [
     img: eltottem,
   },
   {
-    title: "Sool Translator",
+    title: "Sool Translator [ not working because of expired api key :( ]",
     date: "July 2022",
     description:
       "Development of a SPA alike Google Translator using React for the Front-end,   where the user can enter any phrase in any language and it will be translated to any other language that is selected.  It consumes data and functionality from an API",

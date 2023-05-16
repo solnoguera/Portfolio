@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import ProfilePic from "../assets/sol4.jpg";
+import ProfilePic from "../assets/profile.jpg";
 import Technologies from "./Technologies";
 
 const About = () => {
@@ -70,13 +70,12 @@ const About = () => {
 
           <div className="text-justify col-span-2 py-4 font-semibold lg:row-start-2 lg:col-start-2">
             <p>
-              I had the chance to work as a Backend Developer at Epidata, a
-              company in Argentina, for more than a year. This experience help
-              improving my soft skills, I learned to be a good partner in a
-              team, to be responsible, to communicate with the client and to
-              work with Scrum methodology. This experience also teached me a lot
-              about APIs development, services, server-client, protocols, among
-              others.
+              I have been working for more than 3 years as a developer.
+              I had positions as Backend, Frontend, and as Full Stack Developer. This experience help
+              improving my soft and my hard skills. I learned to be a good partner in a
+              team, to be responsible and how to communicate with the client optimally. 
+              These experiences also teached me a lot about web/app development, Rest services, 
+              APIs development, server-client architecture, protocols, among others.
             </p>
           </div>
 
