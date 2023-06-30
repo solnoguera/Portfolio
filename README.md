@@ -1,23 +1,25 @@
 # Sol's Portfolio
 
-This project was initialiced with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Made by Sol Noguera
 
 
+### FEATURES​
+- React Router
+- React Hooks / Custom Hooks
+- Conditional Renders
+- React Icons
+- Context
+- Get Form https://getform.io
+​
+### TOOLS USED TO BUILD IT ​
+- **ReactJS**
+- **Create React App** 
+- **React Router DOM**
+- **Tailwind**
 
-### Making a Progressive Web App
+### HOW TO SET IT UP​
+- Clone the repo, go to the root's project, and run: **npm i**.
+- Once finished, run: **npm start**.
+- The web app must be shown in your browser at localhost:3000
 
-### Deployment
-
-[Go to deploy](https://portfolio-soln.netlify.app/)
+[Deploy](https://portfolio-soln.netlify.app/)
