@@ -20,4 +20,4 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-[Go to deploy][https://portfolio-soln.netlify.app/]
+[Go to deploy](https://portfolio-soln.netlify.app/)
