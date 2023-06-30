@@ -14,6 +14,7 @@ const proyects = [
     deploy: "https://play.rpsleague.io/",
     repo: "https://github.com/rpsleaguenft/rps-frontend",
     img: rps,
+    rol:"Full Stack Developer"
   },
   {
     title: "Interactive\n Room Simulator (deploy removed by client)",
@@ -24,6 +25,7 @@ const proyects = [
     deploy: "https://demo.perspectiva.ar/",
     repo: "https://github.com/Aguilera-Agustin/Online-Catalogue-Frontend",
     img: catalogue,
+    rol:"Full Stack Developer"
   },
   {
     title: "E-commerce",
