@@ -2,10 +2,21 @@ import eltottem from "../assets/eltottem.png";
 import misSeries from "../assets/mis-series.png";
 import catalogue from "../assets/catalogue.png";
 import translator from "../assets/translator.png";
+import rps from "../assets/play_rps.png";
 
 const proyects = [
   {
-    title: "Interactive\n Room Simulator",
+    title: "Web3 Game: Rock Paper Scissors",
+    date: "May 2023",
+    description:
+      "Frontend, Backend and web3 developer. This web app is the classic game but with a touch of blockchain. You can exchange RPS token, acquire NFT hands to create rare teams, and you can play against the machine or against other users!",
+    tecnologies: ["Javascript", "React JS", "Redux", "Typescript", "Node JS", "Express", "Mongo DB", "Smart Contracts", "Docker", "AWS", "Kubernetes"],
+    deploy: "https://play.rpsleague.io/",
+    repo: "https://github.com/rpsleaguenft/rps-frontend",
+    img: rps,
+  },
+  {
+    title: "Interactive\n Room Simulator (deploy removed by client)",
     date: "March 2022",
     description:
       "Responsible for the development of the user interface. This web app is an interactive 2D simulator of environments. Its main functionality is to choose or upload your own environment and select those items for sale (armchairs, lamps, etc.) that the client uploads on the admin page so that the user can see how they would look in their room. It consumes data from the Back-end developed in NodeJS using Express.",
@@ -25,7 +36,7 @@ const proyects = [
     img: eltottem,
   },
   {
-    title: "Sool Translator [ not working because of expired api key :( ]",
+    title: "Sool Translator [not working because of expired api key]",
     date: "July 2022",
     description:
       "Development of a SPA alike Google Translator using React for the Front-end,   where the user can enter any phrase in any language and it will be translated to any other language that is selected.  It consumes data and functionality from an API",
