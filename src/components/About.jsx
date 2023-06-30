@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import ProfilePic from "../assets/profile.jpg";
 import Technologies from "./Technologies";
-
+import { ID_RESUME } from "../data/resume";
 const About = () => {
   return (
     <div
@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div className="my-8">
               <a
-                href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
+                href={`https://drive.google.com/uc?export=download&id=${ID_RESUME}`}
                 download
                 className="mx-2 py-3 font-bold text-black group relative px-8 transition-all duration-700 lg:px-10"
               >

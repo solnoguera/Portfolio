@@ -1,0 +1,1 @@
+export const ID_RESUME = '1eMD3CDxscDtM0DAS6KrFWBl8kGO4oaGO'

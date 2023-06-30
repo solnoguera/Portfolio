@@ -9,6 +9,7 @@ import PortfolioLogo from "../assets/sol-white-logo.png";
 import PortfolioLogoLight from "../assets/sol-black-logo.png";
 import { ThemeContext } from "./themeContext";
 import Toggle from "./Toggle";
+import { ID_RESUME } from "../data/resume";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -116,7 +117,7 @@ const Navbar = () => {
         <li className="mx-4 px-4 items-center">
           <p className="relative group">
             <a
-              href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
+              href={`https://drive.google.com/uc?export=download&id=${ID_RESUME}`}
               download
             >
               Resume ↓
@@ -221,7 +222,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <a
-            href="https://drive.google.com/uc?export=download&id=1-bVkZ8vLOhAui9sKzxXn0r7n72UdaEIg"
+            href={`https://drive.google.com/uc?export=download&id=${ID_RESUME}`}
             download
           >
             Resume ↓
