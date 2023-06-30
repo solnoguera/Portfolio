@@ -22,4 +22,5 @@
 - Once finished, run: **npm start**.
 - The web app must be shown in your browser at localhost:3000
 
-[Deploy](https://portfolio-soln.netlify.app/)
+### Deploy
+[Click Here](https://portfolio-soln.netlify.app/)
