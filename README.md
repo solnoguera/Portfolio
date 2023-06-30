@@ -5,7 +5,7 @@
 
 ### FEATURES​
 - React Router
-- React Hooks / Custom Hooks
+- React Hooks
 - Conditional Renders
 - React Icons
 - Context
