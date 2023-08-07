@@ -12,7 +12,7 @@ const proyects = [
     date: "May 2023",
     description:
       "Frontend, Backend and Web3 Developer. This web app is the classic game but with a touch of blockchain. You can exchange RPS token, acquire NFT hands to create rare teams, you can bet your tokens against the machine or against other users! In addition to this, you can register in a weekly league to win a big prize.",
-    tecnologies: ["Javascript", "React JS", "Redux", "Typescript", "Node JS", "Express", "Mongo DB", "Smart Contracts", "Docker", "AWS", "Kubernetes"],
+    tecnologies: ["Javascript", "React JS", "Redux", "Tailwind", "Node JS", "Express", "Mongo DB", "Smart Contracts", "Docker", "AWS", "Kubernetes"],
     deploy: "https://play.rpsleague.io/",
     repo: "https://github.com/rpsleaguenft/rps-frontend",
     img: rps,
@@ -23,7 +23,7 @@ const proyects = [
     date: "Sep 2022",
     description:
       "Frontend and Backend Developer. Health professionals find this page very useful to have control over the information of their patients and their medical hospitalizations. This page is private but I will show you the companys' main page.",
-    tecnologies: ["Typescript", "React JS", "Redux", "Node JS", "Express", "Mongo DB"],
+    tecnologies: ["React JS", "Redux", "Typescript", "Node JS", "Express", "Mongo DB", , "Material UI"],
     deploy: "https://www.galeno.com.ar/",
     repo: "https://www.galeno.com.ar/",
     img: galeno,
@@ -34,7 +34,7 @@ const proyects = [
     date: "May 2022",
     description:
       "React Native Developer. I was part of the team that created the app for the members of this health insurance company. The users can manage any type of inquirements or procedures in a simple, agile and comfortable way. You can find the app in your app store: Galeno Movil.",
-    tecnologies: ["Javascript", "React Native", "Redux"],
+    tecnologies: ["Javascript", "React Native", "Redux", "Material UI"],
     deploy: "https://www.galeno.com.ar/",
     repo: "https://www.galeno.com.ar/",
     img: galeno_mobile,
@@ -64,7 +64,7 @@ const proyects = [
     title: "Sool Translator [not working because of expired api key]",
     date: "July 2021",
     description:
-      "Development of a SPA alike Google Translator using React for the Front-end,   where the user can enter any phrase in any language and it will be translated to any other language that is selected.  It consumes data and functionality from an API.",
+      "Development of a SPA alike Google Translator using React for the Front-end for a University exam, where the user can enter any phrase in any language and it will be translated to any other language that is selected.  It consumes data and functionality from an API.",
     tecnologies: ["Javascript", "React JS", "Bootstrap", "Axios"],
     deploy: "https://traductor.netlify.app/",
     repo: "https://github.com/solnoguera/Traductor-ReactJS",
@@ -74,8 +74,8 @@ const proyects = [
     title: "Mis Series Web App",
     date: "May 2021",
     description:
-      "Development of this user interface that allows the user to keep record of the series watched, and how many seasons. It was developed with HTML, CSS and just Javascript, using JQuery for DOM interactions.",
-    tecnologies: ["Javascript", "JQuery", "Tailwind"],
+      "Development of this user interface for a University exam, that allows the user to keep record of the series watched, and how many seasons. It was developed with HTML, CSS and just Javascript, using JQuery for DOM interactions.",
+    tecnologies: ["Javascript", "CSS", "JQuery", "Tailwind"],
     deploy: "https://mis-series-soln.netlify.app/",
     repo: "https://github.com/solnoguera/CIU-Primer-Parcial",
     img: misSeries,
