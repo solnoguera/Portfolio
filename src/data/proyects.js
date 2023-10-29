@@ -13,7 +13,7 @@ const proyects = [
     description:
       "Frontend, Backend and Web3 Developer. This web app is the classic game but with a touch of blockchain. You can exchange RPS token, acquire NFT hands to create rare teams, you can bet your tokens against the machine or against other users! In addition to this, you can register in a weekly league to win a big prize.",
     tecnologies: ["Javascript", "React JS", "Redux", "Tailwind", "Node JS", "Express", "Mongo DB", "Smart Contracts", "Docker", "AWS", "Kubernetes"],
-    deploy: "https://play.rpsleague.io/",
+    deploy: "https://play.rpsleague.io/auth/home",
     repo: "https://github.com/rpsleaguenft/rps-frontend",
     img: rps,
     rol:"Full Stack Developer"
